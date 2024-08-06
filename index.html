@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1> The library project TOP</h1>
+        <p>Solution of Tahiel Devoto</p>
+    </header>
+    <main>
+        <div>
+            <button id="add-new-book" type="button">Add book</button>
+            <dialog id="dialog-new-book">
+                <h3>Add a new book to the library</h3>
+                <form class="forms" method="dialog" id="form-newBook">
+                    <label for="newbook-title">Title:</label><input type="text" name="newbook-title" id="newbook-title" minlength="1" required>
+                    <br>
+                    <label for="newbook-author">Author:</label><input type="text" name="newbook-author" id="newbook-author" minlength="6" required>
+                    <br>
+                    <label for="newbook-pages">N° of pages:</label><input type="number" name="newbook-pages" id="newbook-pages" min="0" required>
+                    <br>
+                    <label for="newbook-read">Have you already read it?</label><input type="checkbox" name="newbook-read" id="newbook-read">
+                    <button id="submit-new-book" type="submit">Create New Book!</button>
+                </form>
+            </dialog>
+          
+        </div>
+        <section id="library-display">
+
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

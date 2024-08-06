@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --color1:red;
+
+}
+dialog[open]{
+ 
+    margin-inline:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:2rem;
+    gap:1rem;
+    position:fixed;
+}
+.form-newBook{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    max-width: 100%;
+
+}
+main{
+    display: grid;
+    place-items: center;
+}
+#add-new-book{
+    position:relative;
+    
+}
